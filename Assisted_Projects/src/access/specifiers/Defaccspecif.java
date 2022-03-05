@@ -1,0 +1,9 @@
+package access.specifiers;
+
+class Defaccspecif {
+
+	  void display() 
+	     { 
+	         System.out.println("You are using defalut access specifier"); 
+	     } 
+	} 
