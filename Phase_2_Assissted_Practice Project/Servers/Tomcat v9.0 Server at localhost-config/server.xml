@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="1.3_GenericServlet" path="/1.3_GenericServlet" reloadable="true" source="org.eclipse.jst.jee.server:1.3_GenericServlet"/><Context docBase="1.4_ServletClassInterface" path="/1.4_ServletClassInterface" reloadable="true" source="org.eclipse.jst.jee.server:1.4_ServletClassInterface"/><Context docBase="1.6_SessionTracking" path="/1.6_SessionTracking" reloadable="true" source="org.eclipse.jst.jee.server:1.6_SessionTracking"/></Host>
+      <Context docBase="1.3_GenericServlet" path="/1.3_GenericServlet" reloadable="true" source="org.eclipse.jst.jee.server:1.3_GenericServlet"/><Context docBase="1.4_ServletClassInterface" path="/1.4_ServletClassInterface" reloadable="true" source="org.eclipse.jst.jee.server:1.4_ServletClassInterface"/><Context docBase="1.6_SessionTracking" path="/1.6_SessionTracking" reloadable="true" source="org.eclipse.jst.jee.server:1.6_SessionTracking"/><Context docBase="2.1_JDBCSetup" path="/2.1_JDBCSetup" reloadable="true" source="org.eclipse.jst.jee.server:2.1_JDBCSetup"/></Host>
     </Engine>
   </Service>
 </Server>
