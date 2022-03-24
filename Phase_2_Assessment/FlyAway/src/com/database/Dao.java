@@ -19,7 +19,7 @@ public class Dao {
 
 	public Dao() throws ClassNotFoundException, SQLException{
 		Class.forName("com.mysql.cj.jdbc.Driver");
-		con=DriverManager.getConnection("jdbc:mysql://localhost:3306/flyaway","root","usha");
+		con=DriverManager.getConnection("jdbc:mysql://localhost:3306/flyaway","root","Eclipse12");
 		System.out.println("connection established with database");
 		st=con.createStatement();
 	}
