@@ -47,7 +47,7 @@ public class Retrieve extends HttpServlet {
   		
     	 try {
        		 Connection con=DBConnection.dbConn();
-       		 String sql="select * from product where pid=(?)";
+       		 String sql="select * from eproduct where pid=(?)";
     		 PreparedStatement ps=con.prepareStatement(sql);
     		 ps.setInt(1,pb.getPid());
     		 ResultSet rs=ps.executeQuery();

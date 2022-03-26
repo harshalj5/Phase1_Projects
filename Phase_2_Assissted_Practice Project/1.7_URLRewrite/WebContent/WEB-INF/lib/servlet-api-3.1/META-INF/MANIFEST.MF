@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.9.6
+Bundle-Localization: plugin
+Bundle-ManifestVersion: 2
+Bundle-Name: Servlet API Bundle
+Bundle-RequiredExecutionEnvironment: CDC-1.0/Foundation-1.0,JavaSE-1.7
+Bundle-SymbolicName: javax.servlet
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 3.1.0
+Created-By: 1.8.0_242-8u242-b08-0ubuntu3~16.04-b08 (Private Build)
+Export-Package: javax.servlet;version="3.1.0",javax.servlet.annotation;v
+ ersion="3.1.0",javax.servlet.descriptor;version="3.1.0",javax.servlet.ht
+ tp;version="3.1.0",javax.servlet.resources;version="3.1.0"
+X-Compile-Source-JDK: 1.7
+X-Compile-Target-JDK: 1.7
+
+Name: javax/servlet/
+Implementation-Title: javax.servlet
+Implementation-Vendor: Apache Software Foundation
+Implementation-Version: 3.1.FR
+Specification-Title: Java API for Servlets
+Specification-Vendor: Sun Microsystems, Inc.
+Specification-Version: 3.1
+
+
