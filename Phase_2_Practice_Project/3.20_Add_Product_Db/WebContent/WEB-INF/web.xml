@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
   <display-name>3.20_Add_Product_Db</display-name>
   <welcome-file-list>
     <welcome-file>index.html</welcome-file>
@@ -9,4 +9,24 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>GetProductController</display-name>
+    <servlet-name>GetProductController</servlet-name>
+    <servlet-class>com.file.web.ProductController</servlet-class>
+  </servlet>
+  <servlet>
+    <description></description>
+    <display-name>SaveProductController</display-name>
+    <servlet-name>SaveProductController</servlet-name>
+    <servlet-class> com.file.web.SaveProductController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetProductController</servlet-name>
+    <url-pattern>/getProduct</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SaveProductController</servlet-name>
+    <url-pattern>/saveProduct</url-pattern>
+  </servlet-mapping>
 </web-app>

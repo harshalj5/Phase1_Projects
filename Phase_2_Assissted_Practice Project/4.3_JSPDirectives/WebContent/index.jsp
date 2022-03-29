@@ -1,7 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"    pageEncoding="UTF-8"%>
-   <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-   <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt"%>  
-
+	<!-- <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>-->
+	<!--<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>-->
 <!DOCTYPE html>
 <!--Download jstl.jar from http://central.maven.org/maven2/javax/servlet/jstl/1.2/jstl-1.2.jar-->
 <html>
