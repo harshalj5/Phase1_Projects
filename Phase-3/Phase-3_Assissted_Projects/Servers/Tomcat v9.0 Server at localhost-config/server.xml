@@ -152,7 +152,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="SpringSetup" path="/SpringSetup" reloadable="true" source="org.eclipse.jst.j2ee.server:SpringSetup"/><Context docBase="1.2_SpringSetup_EventHandling" path="/1.2_SpringSetup_EventHandling" reloadable="true" source="org.eclipse.jst.j2ee.server:1.2_SpringSetup_EventHandling"/><Context docBase="1.8_JDBC_Framework" path="/1.8_JDBC_Framework" reloadable="true" source="org.eclipse.jst.j2ee.server:1.8_JDBC_Framework"/></Host>
+      <Context docBase="SpringSetup" path="/SpringSetup" reloadable="true" source="org.eclipse.jst.j2ee.server:SpringSetup"/><Context docBase="1.2_SpringSetup_EventHandling" path="/1.2_SpringSetup_EventHandling" reloadable="true" source="org.eclipse.jst.j2ee.server:1.2_SpringSetup_EventHandling"/><Context docBase="1.8_JDBC_Framework" path="/1.8_JDBC_Framework" reloadable="true" source="org.eclipse.jst.j2ee.server:1.8_JDBC_Framework"/><Context docBase="1.1_Spring_SetUp" path="/1.1_Spring_SetUp" reloadable="true" source="org.eclipse.jst.jee.server:1.1_Spring_SetUp"/></Host>
     </Engine>
   </Service>
 </Server>
